@@ -9,6 +9,7 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            line-height: 1.6;
             background-color: #f7f7f7;
         }
         header {
@@ -17,27 +18,57 @@
             padding: 1rem;
             text-align: center;
         }
+        nav {
+            margin-top: 0.5rem;
+        }
+        nav a {
+            color: white;
+            margin: 0 0.5rem;
+            text-decoration: none;
+        }
         main {
             padding: 2rem;
+        }
+        section {
+            margin-bottom: 2rem;
+            background-color: #fff;
+            padding: 1rem;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
         footer {
             background-color: #333;
             color: white;
             text-align: center;
             padding: 1rem;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
         }
     </style>
 </head>
 <body>
     <header>
         <h1>환영합니다!</h1>
+        <nav>
+            <a href="#intro">소개</a>
+            <a href="#features">기능</a>
+            <a href="#contact">연락처</a>
+        </nav>
     </header>
     <main>
-        <h2>예시 페이지</h2>
-        <p>이것은 간단한 예시 홈페이지입니다. 원하는 내용을 여기에 추가하세요.</p>
+        <section id="intro">
+            <h2>소개</h2>
+            <p>이 페이지는 간단한 HTML과 CSS만으로 구성된 예시 홈페이지입니다.</p>
+        </section>
+        <section id="features">
+            <h2>기능</h2>
+            <ul>
+                <li>응답형 레이아웃</li>
+                <li>간단한 내비게이션 바</li>
+                <li>기본적인 섹션 구분</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <p>문의 사항은 <a href="mailto:example@example.com">example@example.com</a> 으로 보내주세요.</p>
+        </section>
     </main>
     <footer>
         &copy; 2024 Example Corp
