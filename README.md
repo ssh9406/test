@@ -2,6 +2,8 @@
 
 이 저장소에는 간단한 예시 홈페이지가 포함되어 있습니다. 아래 링크를 클릭하면 완성된 페이지를 바로 확인할 수 있습니다.
 
-[예시 홈페이지 보기](https://htmlpreview.github.io/?https://raw.githubusercontent.com/사용자명/저장소명/main/index.html)
+
+[예시 홈페이지 보기](index.html)
+
 
 로컬에서 직접 확인하려면 저장소를 클론한 뒤 `index.html` 파일을 브라우저로 열면 됩니다.
